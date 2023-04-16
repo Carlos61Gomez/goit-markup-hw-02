@@ -1,24 +1,14 @@
+
+
 body{
     font-family: 'roboto',Courier, monospace;
+    
 }
 /* header*/
-/*
-header nav{
-    position: absolute;
-    width: 1600px;
-    height: 80px;
-    left: 0px;
-    top: 0px;
-    background:#fff;
-}
-*/
+
+
 .web{
-    /*
-    position: absolute;
-    width: 145px;
-    height: 31px;
-    left: 215px;
-    top: 24px;*/
+   
 
     font-family: 'raleway';
     font-style: normal;
@@ -30,15 +20,18 @@ header nav{
     
 
     color: #238fd7;
+
+       
+        text-decoration: none;
 }
 
-.stady{
-    /*
-    position: absolute;
-    width: 49px;
-    height: 16px;
-    left: 453px;
-    top: 32px;*/
+.list{
+    text-decoration: none;
+    list-style: none
+}
+
+.list_stady{
+   
     
     font-family: 'Roboto';
     font-style: normal;
@@ -48,19 +41,16 @@ header nav{
     letter-spacing: 0.02em;
     
     color: #000000;
+        text-decoration: none;
+        list-style: none
 }
 
-.stady:hover{
+.list_stady:hover{
     color: #2196f3;
 }
 
-.portfolio{
-    /*
-    position: absolute;
-    width: 65px;
-    height: 16px;
-    left: 552px;
-    top: 32px;*/
+.list_portfolio{
+
 
     font-family: 'Roboto';
     font-style: normal;
@@ -70,19 +60,16 @@ header nav{
     letter-spacing: 0.02em;
 
     color: #212121;
+    text-decoration: none;
+        
 }
 
-.portfolio:hover{
+.list_portfolio:hover{
     color:#2196f3 ;
 }
 
-.contact{
-    /*
-    position: absolute;
-    width: 67px;
-    height: 16px;
-    left: 667px;
-    top: 32px;*/
+.list_contact{
+    
     
     font-family: 'Roboto';
     font-style: normal;
@@ -92,18 +79,21 @@ header nav{
     letter-spacing: 0.02em;
     
     color: #212121;
+
+    text-decoration: none;
+        list-style: none
 }
-.contact:hover{
+.list_contact:hover{
     color:#2196F3
 }
-.correo{
-    /*
-    position: absolute;
-    width: 135px;
-    height: 16px;
-    left: 1078px;
-    top: 32px;*/
-    
+
+.list2 {
+    text-decoration: none;
+    list-style: none
+}
+
+.list2_email{
+   
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
@@ -112,19 +102,16 @@ header nav{
     letter-spacing: 0.02em;
     
     color: #000000;
+
+        text-decoration: none;
+        list-style: none
 }
-.correo:hover{
+.list2_email:hover{
     color: #2196f3;
 }
 
-.numero{
-    /*
-    position: absolute;
-        width: 200px;
-        height: 16px;
-        left: 1263px;
-        top: 32px;*/
-    
+.list2_number{
+  
         font-family: 'Roboto';
         font-style: normal;
         font-weight: 500;
@@ -133,37 +120,29 @@ header nav{
         letter-spacing: 0.02em;
     
         color: #000000;
+
+        text-decoration: none;
+            list-style: none
 }
-.numero:hover{
+.list2_number:hover{
     color: #2196f3;
 }
 /* header */
 
 /* section1 */
 .section1{
-    /*
-    position: absolute;
-        width: 1600px;
-        height: 600px;
-        left: -4px;
-        top: 80px;*/
+    
     
         background: #2F303A;
 }
 h1{
-    /*
-    position: absolute;
-        width: 696px;
-        height: 120px;
-        left: 448px;
-        top: 280px;*/
     
         font-family: 'Roboto';
         font-style: normal;
         font-weight: 900;
         font-size: 44px;
         line-height: 60px;
-        /* or 136% */
+     
     
         text-align: center;
         letter-spacing: 0.06em;
@@ -180,11 +159,6 @@ h1{
         padding: 10px 32px;
         gap: 10px;
     
-       /* position: absolute;
-        width: 300px;
-        height: 50px;
-        left: 666px;
-        top: 430px;*/
     
         background: #2196F3;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -194,14 +168,11 @@ h1{
 
 }
 /* section1 */
+
+
 /* section2 */
 .section2 h3{
-    /*
-    position: absolute;
-    width: 270px;
-    height: 16px;
-    left: 215px;
-    top: 775px;*/
+    
 
     font-family: 'Roboto';
     font-style: normal;
@@ -212,6 +183,7 @@ h1{
     text-transform: uppercase;
 
     color: #212121;
+       
 }
 
 .section p{
@@ -230,13 +202,7 @@ h1{
 /* section2*/
 /* section3 */
 .section3{
-    /*
-        position: absolute;
-        width: 1173.16px;
-        height: 425px;
-        left: 215px;
-        top: 991px;*/
-
+  
 }
 
 .section3 h3{
@@ -251,12 +217,7 @@ h1{
         color: #212121;
 }
 
-.img-section3{
- 
 
-    background: url(jpg);
-    mix-blend-mode: normal;
-}
 
 
 
@@ -284,7 +245,7 @@ h2{
         font-weight: 500;
         font-size: 16px;
         line-height: 19px;
-        /* identical to box height */
+       
     
         
         letter-spacing: 0.03em;
@@ -299,7 +260,7 @@ h2{
         font-weight: 400;
         font-size: 16px;
         line-height: 19px;
-        /* identical to box height */
+       
     
         
         letter-spacing: 0.03em;
@@ -316,6 +277,8 @@ h2{
 
     background: #FFFFFF;
 }
+
+
 /* section5 */
 
 .section5{
@@ -324,13 +287,17 @@ position: absolute;
     height: 54px;
     left: 495px;
     top: 186px;
+    
 }
-.portafolio {
-   /* position: absolute;
-    width: 1170px;
-    height: 1360px;
-    left: 215px;
-    top: 186px;*/
+
+
+.filtros{
+    position: absolute;
+    width: 611px;
+    height: 54px;
+    left: 495px;
+    top: 186px;
+    list-style: none;
 }
 
 .button-0{
@@ -385,7 +352,7 @@ position: absolute;
     font-weight: 500;
     font-size: 16px;
     line-height: 26px;
-    /* identical to box height, or 162% */
+    
 
     text-align: center;
     letter-spacing: 0.03em;
@@ -396,6 +363,11 @@ position: absolute;
 
 /* section5 */
 /* section6 */
+
+.container{
+    list-style: none;
+}
+
 .contenedor-1{
 box-sizing: border-box;
 
@@ -512,7 +484,7 @@ box-sizing: border-box;
 /* section6 */
 
 /* footer */
-.footer1{
+.footer{
     
     position: absolute;
         width: 1600px;
@@ -523,15 +495,21 @@ box-sizing: border-box;
         background: #2F303A;
 }
 
+.position{
+    list-style: none;
+    text-decoration:none ;
+}
+
 .mexico {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
-    /* or 171% */
+ 
 
     letter-spacing: 0.03em;
+    text-decoration: none;
 
     color: #FFFFFF;
 }
@@ -542,10 +520,11 @@ box-sizing: border-box;
         font-weight: 400;
         font-size: 14px;
         line-height: 24px;
-        /* or 171% */
+       
     
         letter-spacing: 0.03em;
-    
+        text-decoration: none;
+
         color: rgba(255, 255, 255, 0.6);
 }
 
@@ -555,9 +534,9 @@ box-sizing: border-box;
         font-weight: 400;
         font-size: 14px;
         line-height: 24px;
-        /* or 171% */
-    
+   
         letter-spacing: 0.03em;
+        text-decoration: none;
     
         color: rgba(255, 255, 255, 0.6);
 }
