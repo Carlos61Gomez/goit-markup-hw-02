@@ -25,12 +25,12 @@ body{
         text-decoration: none;
 }
 
-.list{
+.link{
     text-decoration: none;
     list-style: none
 }
 
-.list_stady{
+.link_stady{
    
     
     font-family: 'Roboto';
@@ -45,11 +45,11 @@ body{
         list-style: none
 }
 
-.list_stady:hover{
+.link_stady:hover{
     color: #2196f3;
 }
 
-.list_portfolio{
+.link_portfolio{
 
 
     font-family: 'Roboto';
@@ -64,11 +64,12 @@ body{
         
 }
 
-.list_portfolio:hover{
+.link_portfolio:hover{
     color:#2196f3 ;
 }
 
-.list_contact{
+
+.link_contact{
     
     
     font-family: 'Roboto';
@@ -83,16 +84,16 @@ body{
     text-decoration: none;
         list-style: none
 }
-.list_contact:hover{
+.link_contact:hover{
     color:#2196F3
 }
 
-.list2 {
+.link2 {
     text-decoration: none;
     list-style: none
 }
 
-.list2_email{
+.link2_email{
    
     font-family: 'Roboto';
     font-style: normal;
@@ -106,11 +107,11 @@ body{
         text-decoration: none;
         list-style: none
 }
-.list2_email:hover{
+.link2_email:hover{
     color: #2196f3;
 }
 
-.list2_number{
+.link2_number{
   
         font-family: 'Roboto';
         font-style: normal;
@@ -124,7 +125,7 @@ body{
         text-decoration: none;
             list-style: none
 }
-.list2_number:hover{
+.link2_number:hover{
     color: #2196f3;
 }
 /* header */
