@@ -6,7 +6,7 @@ body {
 /* header*/
 
 
-.web {
+.logo {
 
     font-family: 'raleway';
     font-style: normal;
@@ -23,14 +23,12 @@ body {
     text-decoration: none;
 }
 
-.link {
+.nav-menu {
     text-decoration: none;
     list-style: none
 }
 
 .link_stady {
-
-
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
@@ -104,9 +102,10 @@ body {
 
 
 
-.link2 {
+.contacts-menu {
     text-decoration: none;
-    list-style: none
+    list-style: none;
+
 }
 
 .link2_email {
@@ -119,7 +118,7 @@ body {
     line-height: 16px;
     letter-spacing: 0.02em;
 
-    color: #000000;
+    color: #757575;
 
     text-decoration: none;
     list-style: none
@@ -138,7 +137,7 @@ body {
     line-height: 16px;
     letter-spacing: 0.02em;
 
-    color: #000000;
+    color: #757575;
 
     text-decoration: none;
     list-style: none
@@ -159,7 +158,7 @@ body {
     background: #2F303A;
 }
 
-h1 {
+.section1-title {
     font-weight: 900;
     font-size: 44px;
     line-height: 60px;
@@ -172,13 +171,13 @@ h1 {
 
 a {
 
-    color: azure;
+
     text-decoration: none;
 
 }
 
 
-.btn {
+.btn-primary {
     display: inline-block;
     background-color: #2196f3;
 
@@ -192,8 +191,9 @@ a {
     border-radius: 4px;
 }
 
-.btn:hover {
+.btn-primary:hover {
     background-color: #0365a6;
+    color: #F5F4FA;
 }
 
 
@@ -201,7 +201,7 @@ a {
 
 
 /* section2 */
-.section2 h3 {
+.title-h3 {
 
 
     font-family: 'Roboto';
@@ -216,24 +216,27 @@ a {
 
 }
 
-.section p {
+.description {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
-
-
     letter-spacing: 0.03em;
 
     color: #757575;
+}
+
+.beneficts-list {
+
+    list-style: none;
 }
 
 /* section2*/
 /* section3 */
 
 
-.section3 h3 {
+h3 {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -245,7 +248,9 @@ a {
     color: #000000;
 }
 
-
+.card1 {
+    list-style: none;
+}
 
 
 
@@ -314,28 +319,29 @@ h2 {
 
 /* section5 */
 
-.section5 {
-    color: #000000;
-    display: block
-}
 
-.filtros {
+
+.section5 .filtros {
     list-style: none;
 
+}
+
+a {
+    color: #000000;
 }
 
 .button-0 {
 
     background-color: #F5F4FA;
     font-size: 16px;
-    0 line-height: 2px;
+    line-height: 20px;
     justify-content: center;
     align-items: center;
     padding: 2px 5px;
 
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
-    color: #000000;
+
 }
 
 .button-1 {
@@ -348,7 +354,7 @@ h2 {
 
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
-    color: #000000;
+
 }
 
 .button-2 {
@@ -361,7 +367,7 @@ h2 {
 
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
-    color: #000000;
+
 }
 
 .button-3 {
@@ -388,14 +394,14 @@ h2 {
 
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
-    color: #000000;
+
 }
 
 .button-0:hover,
-.button-1:hover,
-.button-2:hover,
-.button-3:hover,
-.button-4:hover {
+.button-1:hover:focus,
+.button-2:hover:focus,
+.button-3:hover:focus,
+.button-4:hover:focus {
     background: #2196F3;
     color: white;
 }
