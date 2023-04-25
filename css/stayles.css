@@ -1,6 +1,11 @@
+* {
+
+    box-sizing: border-box;
+}
+
 body {
     font-family: 'roboto', Courier, monospace, sans-serif;
-
+    font-size: 14px;
 }
 
 /* header*/
@@ -8,17 +13,12 @@ body {
 
 .logo {
 
-    font-family: 'raleway';
-    font-style: normal;
+    font-family: 'raleway', sans-serif;
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
-    text-align: right;
-    letter-spacing: 0.03em;
-
+    line-height: 1.2;
 
     color: #238fd7;
-
 
     text-decoration: none;
 }
@@ -41,13 +41,9 @@ body {
     list-style: none
 }
 
-.link_stady:hover {
-    color: #2196f3;
-}
+
 
 .link_portfolio {
-
-
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
@@ -59,17 +55,6 @@ body {
     text-decoration: none;
 
 }
-
-
-.list_portfolio:hover {
-    color: #2196f3;
-}
-
-
-.link_portfolio:hover {
-    color: #2196f3;
-}
-
 
 .link_contact {
 
@@ -84,14 +69,6 @@ body {
 
     text-decoration: none;
     list-style: none
-}
-
-.link_contact:hover {
-    color: #2196F3
-}
-
-.list2 .link_contact:hover {
-    color: #2196F3
 }
 
 .link_stady.active,
@@ -124,10 +101,6 @@ body {
     list-style: none
 }
 
-.link2_email:hover {
-    color: #2196f3;
-}
-
 .link2_number {
 
     font-family: 'Roboto';
@@ -143,10 +116,22 @@ body {
     list-style: none
 }
 
-
+.link_stady:hover,
+.list_portfolio:hover,
+.link_contact:hover,
+.link2_email:hover,
 .link2_number:hover {
 
     color: #2196f3;
+}
+
+.link_stady:focus,
+.list_portfolio:focus,
+.link_contact:focus,
+.link2_email:focus,
+.link2_number:focus {
+
+    color: #2196F3;
 }
 
 /* header */
@@ -178,24 +163,28 @@ a {
 
 
 .btn-primary {
-    display: inline-block;
+
+    font-size: 16px;
+    font-weight: 700;
     background-color: #2196f3;
 
-
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 10px 32px;
-    gap: 10px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
+    border: none;
+    outline: none;
+    text-transform: capitalize;
+    padding: 10px 20px;
 }
+
 
 .btn-primary:hover {
     background-color: #0365a6;
     color: #F5F4FA;
 }
 
+.container {
+    padding: 0 15px;
+    max-width: 1200px;
+    margin: auto;
+}
 
 /* section1 */
 
@@ -203,12 +192,11 @@ a {
 /* section2 */
 .title-h3 {
 
-
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.6;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 
@@ -221,7 +209,7 @@ a {
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.03em;
 
     color: #757575;
@@ -272,7 +260,7 @@ h2 {
     color: #212121;
 }
 
-.card {
+.tean {
 
     list-style: none
 }
@@ -282,10 +270,7 @@ h2 {
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 19px;
-
-
-
+    line-height: 1;
     letter-spacing: 0.03em;
 
     color: #212121;
@@ -297,7 +282,7 @@ h2 {
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 19px;
+    line-height: 1;
 
 
 
@@ -321,7 +306,7 @@ h2 {
 
 
 
-.section5 .filtros {
+.section5 .list {
     list-style: none;
 
 }
@@ -334,12 +319,12 @@ a {
 
     background-color: #F5F4FA;
     font-size: 16px;
-    line-height: 20px;
+    line-height: 1.5;
     justify-content: center;
     align-items: center;
     padding: 2px 5px;
 
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+
     border-radius: 4px;
 
 }
@@ -347,12 +332,12 @@ a {
 .button-1 {
     background-color: #F5F4FA;
     font-size: 16px;
-    line-height: 20px;
+    line-height: 1.5;
     justify-content: center;
     align-items: center;
     padding: 2px 5px;
 
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+
     border-radius: 4px;
 
 }
@@ -360,12 +345,12 @@ a {
 .button-2 {
     background-color: #F5F4FA;
     font-size: 16px;
-    line-height: 20px;
+    line-height: 1.5;
     justify-content: center;
     align-items: center;
     padding: 2px 5px;
 
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+
     border-radius: 4px;
 
 }
@@ -373,106 +358,76 @@ a {
 .button-3 {
     background-color: #F5F4FA;
     font-size: 16px;
-    line-height: 20px;
+    line-height: 1.5;
     justify-content: center;
     align-items: center;
     padding: 2px 5px;
 
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+
     border-radius: 4px;
-    color: #000000;
+
 }
 
 .button-4 {
 
     background-color: #F5F4FA;
     font-size: 16px;
-    line-height: 20px;
+    line-height: 1.5;
     justify-content: center;
     align-items: center;
     padding: 2px 5px;
 
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+
     border-radius: 4px;
 
 }
 
 .button-0:hover,
-.button-1:hover:focus,
-.button-2:hover:focus,
-.button-3:hover:focus,
-.button-4:hover:focus {
-    background: #2196F3;
+.button-1:hover,
+.button-2:hover,
+.button-3:hover,
+.button-4:hover {
+    background-color: #2196F3;
     color: white;
 }
 
-/* section5 */
-/* section6 */
+.button-0:focus,
+.button-1:focus,
+.button-2:focus,
+.button-3:focus,
+.button-4:focus {
+    background-color: #2196F3;
+    color: white;
+}
+
+
+
 
 .container {
     list-style: none;
 }
 
-.contenedor-1 {
+.contenedor-1,
+.contenedor-2,
+.contenedor-3,
+.contenedor-4,
+.contenedor-5,
+.contenedor-6,
+.contenedor-7,
+.contenedor-8,
+.contenedor-9 {
 
     background: #FFFFFF;
     border: 1px solid #EEEEEE;
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
-.contenedor-2 {
 
-    background: #FFFFFF;
-    border: 1px solid #EEEEEE;
-}
-
-.contenedor-3 {
-
-    background: #FFFFFF;
-    border: 1px solid #EEEEEE;
-}
-
-.contenedor-4 {
-
-    background: #FFFFFF;
-    border: 1px solid #EEEEEE;
-}
-
-.contenedor-5 {
-
-    background: #FFFFFF;
-    border: 1px solid #EEEEEE;
-}
-
-.contenedor-6 {
-
-    background: #FFFFFF;
-    border: 1px solid #EEEEEE;
-}
-
-.contenedor-7 {
-
-
-    background: #FFFFFF;
-    border: 1px solid #EEEEEE;
-}
-
-.contenedor-8 {
-
-    background: #FFFFFF;
-    border: 1px solid #EEEEEE;
-}
-
-.contenedor-9 {
-
-    background: #FFFFFF;
-    border: 1px solid #EEEEEE;
-}
+/* section5 */
 
 
 
 
-/* section6 */
 
 /* footer */
 .footer {
