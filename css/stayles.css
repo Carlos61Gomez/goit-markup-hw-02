@@ -16,8 +16,8 @@ body {
     font-family: 'raleway', sans-serif;
     font-weight: 700;
     font-size: 26px;
-    line-height: 1.2;
-
+    line-height: 1.5;
+    letter-spacing: 0.02em;
     color: #238fd7;
 
     text-decoration: none;
@@ -33,7 +33,7 @@ body {
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
 
     color: #000000;
@@ -48,7 +48,7 @@ body {
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
 
     color: #212121;
@@ -62,7 +62,7 @@ body {
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
 
     color: #212121;
@@ -92,7 +92,7 @@ body {
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
 
     color: #757575;
@@ -107,7 +107,7 @@ body {
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
 
     color: #757575;
@@ -117,19 +117,25 @@ body {
 }
 
 .link_stady:hover,
-.list_portfolio:hover,
+.link_portfolio:hover,
 .link_contact:hover,
 .link2_email:hover,
-.link2_number:hover {
+.link2_number:hover,
+.mexico:hover,
+.correo-2:hover,
+.numero-2:hover {
 
     color: #2196f3;
 }
 
 .link_stady:focus,
-.list_portfolio:focus,
+.link_portfolio:focus,
 .link_contact:focus,
 .link2_email:focus,
-.link2_number:focus {
+.link2_number:focus,
+.mexico:focus,
+.correo-2:focus,
+.numero-2:focus {
 
     color: #2196F3;
 }
@@ -146,20 +152,13 @@ body {
 .section1-title {
     font-weight: 900;
     font-size: 44px;
-    line-height: 60px;
-
+    line-height: 1.5;
     letter-spacing: 0.06em;
     text-transform: uppercase;
 
     color: #FFFFFF;
 }
 
-a {
-
-
-    text-decoration: none;
-
-}
 
 
 .btn-primary {
@@ -167,7 +166,6 @@ a {
     font-size: 16px;
     font-weight: 700;
     background-color: #2196f3;
-
     border: none;
     outline: none;
     text-transform: capitalize;
@@ -229,7 +227,7 @@ h3 {
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
-    line-height: 42px;
+    line-height: 1.8;
 
     letter-spacing: 0.03em;
 
@@ -253,7 +251,7 @@ h2 {
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
-    line-height: 42px;
+    line-height: 1.8;
 
     letter-spacing: 0.03em;
 
@@ -270,7 +268,7 @@ h2 {
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 1;
+    line-height: 1.8;
     letter-spacing: 0.03em;
 
     color: #212121;
@@ -283,8 +281,6 @@ h2 {
     font-weight: 400;
     font-size: 16px;
     line-height: 1;
-
-
 
     letter-spacing: 0.03em;
 
@@ -311,15 +307,15 @@ h2 {
 
 }
 
-a {
-    color: #000000;
-}
+
 
 .button-0 {
 
     background-color: #F5F4FA;
     font-size: 16px;
+    font-weight: 400;
     line-height: 1.5;
+    letter-spacing: normal;
     justify-content: center;
     align-items: center;
     padding: 2px 5px;
@@ -332,7 +328,9 @@ a {
 .button-1 {
     background-color: #F5F4FA;
     font-size: 16px;
+    font-weight: 400;
     line-height: 1.5;
+    letter-spacing: normal;
     justify-content: center;
     align-items: center;
     padding: 2px 5px;
@@ -345,9 +343,10 @@ a {
 .button-2 {
     background-color: #F5F4FA;
     font-size: 16px;
+    font-weight: 400;
     line-height: 1.5;
+    letter-spacing: normal;
     justify-content: center;
-    align-items: center;
     padding: 2px 5px;
 
 
@@ -358,9 +357,10 @@ a {
 .button-3 {
     background-color: #F5F4FA;
     font-size: 16px;
+    font-weight: 400;
     line-height: 1.5;
+    letter-spacing: normal;
     justify-content: center;
-    align-items: center;
     padding: 2px 5px;
 
 
@@ -372,9 +372,10 @@ a {
 
     background-color: #F5F4FA;
     font-size: 16px;
+    font-weight: 400;
     line-height: 1.5;
+    letter-spacing: normal;
     justify-content: center;
-    align-items: center;
     padding: 2px 5px;
 
 
@@ -447,7 +448,7 @@ a {
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.2x;
 
 
     letter-spacing: 0.03em;
@@ -461,7 +462,7 @@ a {
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.2;
 
 
     letter-spacing: 0.03em;
@@ -475,7 +476,7 @@ a {
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.2;
 
     letter-spacing: 0.03em;
     text-decoration: none;
